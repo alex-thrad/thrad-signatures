@@ -6,13 +6,12 @@ name, title, mobile, website and "Schedule a call" are all part of the image.
 
 ## Current signature (3 Nov 2026)
 
-The signature is HTML again, the same structure as the pre-October one: a bar 100% of the
-email width (up to 1280px) and 150px tall, with real text and links on top. It uses two files:
+`thrad-sig-<first-name>-banner.jpg`: the full orange LinkedIn banner, unedited, with that
+person's name, title, mobile, website and "Schedule a call" on its left. 1600 x 400 pixels,
+shown at up to 800 x 200: it fills the email's width up to 800px and shrinks on phones.
+The signature markup links the whole picture to https://cal.com/team/thrad.
 
-- `orange-bg.jpg`: 1280 x 320 background from the orange LinkedIn banner artwork, highlights
-  toned down so white text reads at 5:1 or better anywhere on it.
-- `thrad-logo-white.png`: the white thrad lockup (574 x 208, shown at 120px wide).
-
-The picture cards (`thrad-sig-<first-name>.jpg` and `-wide.jpg`) stay here so signatures
-installed from them keep working.
+Earlier versions stay here so signatures installed from them keep working:
+`thrad-sig-<first-name>.jpg` (380px card), `thrad-sig-<first-name>-wide.jpg` (600px card),
+and `orange-bg.jpg` + `thrad-logo-white.png` (HTML bar).
 
