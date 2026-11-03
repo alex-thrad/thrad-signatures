@@ -4,16 +4,15 @@ Public image assets for the thrad email signature. One picture per team member,
 set on the orange artwork from the October 2026 LinkedIn banner: logo, "Paid Ads in AI",
 name, title, mobile, website and "Schedule a call" are all part of the image.
 
-Current cards: `thrad-sig-<first-name>-wide.jpg`, 1200 x 300 pixels shown at 600 x 150,
-the same width as the original HTML signature. The signature markup wraps the card in
-a link to https://cal.com/team/thrad.
+## Current signature (3 Nov 2026)
 
-The first version, `thrad-sig-<first-name>.jpg` (760 x 272, shown at 380 x 136), stays
-here so signatures installed from it keep working.
+The signature is HTML again, the same structure as the pre-October one: a bar 100% of the
+email width (up to 1280px) and 150px tall, with real text and links on top. It uses two files:
 
-Served with GitHub Pages:
+- `orange-bg.jpg`: 1280 x 320 background from the orange LinkedIn banner artwork, highlights
+  toned down so white text reads at 5:1 or better anywhere on it.
+- `thrad-logo-white.png`: the white thrad lockup (574 x 208, shown at 120px wide).
 
-    https://alex-thrad.github.io/thrad-signatures/thrad-sig-<first-name>-wide.jpg
+The picture cards (`thrad-sig-<first-name>.jpg` and `-wide.jpg`) stay here so signatures
+installed from them keep working.
 
-Installed signatures point at these URLs, so do not rename or move the files.
-To update a card, replace the file with a new 760 x 272 export of the same name.
